@@ -25,6 +25,8 @@ Complete notebook with the code implementation in each component can be found [h
 
 After implementing the code for JumpNet, the model is trained on CIFAR dataset, which contains 60,000 color images in 10 classes, with 6,000 images in each class. The dataset is divided into 50,000 training images and 10,000 testing images. 
 
-Weight initialization, hyperparameter tuning, early stopping and learning rate scheduler are techniques applied to stabilize the weights of the model, find the optimal hyperparameter setting to maximize training of the model for validation accuracy, and maximize efficiency during training. 
+Weight initialization, hyperparameter tuning, early stopping, and learning rate scheduler are techniques applied to stabilize the weights of the model, find the optimal hyperparameter setting to maximize training of the model for validation accuracy, and maximize efficiency during training. 
 
-With 4x4x256 feature maps, as opposed to 8x8x1024 in popular model architectures used to train on CIFAR dataset, JumpNet is able to achieve comparable accuracy of 82% on the test set. This validates research that JumpNet preserves the accuracy while minimizing the number of matrix operations with reduced feature maps.
+With 4x4x256 feature maps, as opposed to 8x8x1024 in popular model architectures used to train on CIFAR dataset, JumpNet is able to achieve comparable accuracy of 82% on the test set. This validates research that JumpNet preserves the accuracy while minimizing the number of matrix operations with reduced feature maps. 
+
+![Results](./images/results.jpg)
